@@ -1,0 +1,19 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Conda environment files (if created locally)
+.conda/
+conda-meta/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Deep Learning specific (Datasets/Models)
+data/
+models/*.pth
+models/*.h5
+.ipynb_checkpoints/
